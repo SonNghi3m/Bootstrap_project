@@ -1,0 +1,54 @@
+/******* ID *********/
+
+#title {
+    background: #678983;
+}
+
+
+
+#title-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+#title-description-container {
+    margin: 10% 10%;
+}
+
+/* #title-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/******* CLASS *********/
+
+
+/******* TAG *********/
+nav {
+    background: #181D31;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 40pt;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 20pt;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+}

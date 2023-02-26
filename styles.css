@@ -1,7 +1,7 @@
 /******* ID *********/
 #header {
     background-color: #F0E9D2;
-    height: 60rem;
+    height: 55rem;
 }
 
 #title {
@@ -12,7 +12,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* transform: rotate(25deg); */
 }
 
 #title-img {

@@ -1,7 +1,7 @@
 /******* ID *********/
 #header {
     background-color: #F0E9D2;
-    height: 55rem;
+    overflow: hidden;
 }
 
 #title {
@@ -24,6 +24,13 @@
     text-align: center;
 }
 
+#footer {
+    background-color: #181D31;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 /******* CLASS *********/
 .login .btn {
     min-width: 6rem;
@@ -34,6 +41,7 @@
     padding: 2rem 5rem 5rem 5rem;
     margin: 7rem auto;
     background-color: #181D31;
+    margin: #F0E9D2;
 }
 
 .btn-dark {
@@ -70,10 +78,6 @@
 
 .login-form .btn-outline-success {
     --bs-btn-border-color: #198754;
-}
-
-#footer {
-    background-color: #181D31;
 }
 
 /******* TAG *********/

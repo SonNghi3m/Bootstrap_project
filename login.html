@@ -61,34 +61,31 @@
                         <a class="nav-link btn btn-outline-success text-white fw-bold" href="">Contact</a>
                     </li>
                     <li class="nav-item login">
-                        <a class="nav-link btn btn-outline-success text-white fw-bold" href="login.html">Login</a>
+                        <a class="nav-link btn btn-outline-success text-white fw-bold" href="index.html">Back</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <!-- TITLE -->
-        <div id="title">
-            <div class="row">
-
-                <div class="col-lg-6 align-middle" id="title-content">
-                    <div id="title-description-container">
-                        <h1> EZ Manager brings all your tasks, teammates, and tools together</h1>
-                        <p> Keep everything in the same place-even if your team isn’t.</p>
-                        <button type="button" class="btn btn-lg btn-dark border border-success p-2 mb-2"><img
-                                src="/image/apple.png" alt="apple logo" width="30" height="30">
-                            Download</button>
-                        <button type="button" class="btn btn-lg btn-outline-light border border-success p-2 mb-2"><img
-                                src="/image/goolge.jpg" alt="google logo" width="25" height="25"> Download</button>
-                    </div>
+        <!-- LOGIN FORM -->
+        <form class="login-form position-relative border border-success border-2 rounded-3">
+            <div class="row mb-3">
+                <h1 class="fs-1 mb-3">LOGIN</h1>
+                <label for="inputEmail3" class="col-sm-2 col-form-label text-white fw-bold">Email:</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3">
                 </div>
-
-                <div class="col-lg-6" id="title-img-container">
-                    <img id="title-img" class="rounded-5" src="image/title.jpg" alt="project management">
+            </div>
+            <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label text-white fw-bold ">Password:</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3">
                 </div>
-
             </div>
 
-        </div>
+            <button type="submit"
+                class="btn btn-outline-success text-white fw-bold position-absolute bottom-0 end-0 mb-5 me-6">Sign
+                in</button>
+        </form>
 
 
 
